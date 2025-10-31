@@ -15,22 +15,22 @@ const Dashboard = (props: DashboardProps) => {
           Overview
         </button>
         <button 
-          className={activeTab === 'task_creation_&_management' ? 'active' : ''}
-          onClick={() => setActiveTab('task_creation_&_management')}
+          className={activeTab === 'user_authentication' ? 'active' : ''}
+          onClick={() => setActiveTab('user_authentication')}
         >
-          Task Creation & Management
+          User Authentication
         </button>
         <button 
-          className={activeTab === 'collaboration_tools' ? 'active' : ''}
-          onClick={() => setActiveTab('collaboration_tools')}
+          className={activeTab === 'task_creation_and_management' ? 'active' : ''}
+          onClick={() => setActiveTab('task_creation_and_management')}
         >
-          Collaboration Tools
+          Task Creation And Management
         </button>
         <button 
-          className={activeTab === 'advanced_analytics_dashboard' ? 'active' : ''}
-          onClick={() => setActiveTab('advanced_analytics_dashboard')}
+          className={activeTab === 'collaborative_task_assignment' ? 'active' : ''}
+          onClick={() => setActiveTab('collaborative_task_assignment')}
         >
-          Advanced Analytics Dashboard
+          Collaborative Task Assignment
         </button>
       </nav>
 
@@ -55,24 +55,24 @@ const Dashboard = (props: DashboardProps) => {
           </div>
         )}
 
-        {activeTab === 'task_creation_&_management' && (
+        {activeTab === 'user_authentication' && (
           <div className="tab-content">
-            <h2>Task Creation & Management</h2>
-            <p>Manage your task creation & management here.</p>
+            <h2>User Authentication</h2>
+            <p>Manage your user authentication here.</p>
           </div>
         )}
 
-        {activeTab === 'collaboration_tools' && (
+        {activeTab === 'task_creation_and_management' && (
           <div className="tab-content">
-            <h2>Collaboration Tools</h2>
-            <p>Manage your collaboration tools here.</p>
+            <h2>Task Creation and Management</h2>
+            <p>Manage your task creation and management here.</p>
           </div>
         )}
 
-        {activeTab === 'advanced_analytics_dashboard' && (
+        {activeTab === 'collaborative_task_assignment' && (
           <div className="tab-content">
-            <h2>Advanced Analytics Dashboard</h2>
-            <p>Manage your advanced analytics dashboard here.</p>
+            <h2>Collaborative Task Assignment</h2>
+            <p>Manage your collaborative task assignment here.</p>
           </div>
         )}
       </div>
