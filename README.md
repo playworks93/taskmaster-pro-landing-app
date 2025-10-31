@@ -4,12 +4,12 @@ TaskMaster Pro - Built with React + TypeScript + Vite
 
 ## Features
 
-- Task Creation & Management
-- Collaboration Tools
-- Advanced Analytics Dashboard
-- Due Date & Reminders
-- Integration with Calendar Apps
-- Priority Tagging & Categorization
+- User Authentication
+- Task Creation and Management
+- Collaborative Task Assignment
+- Priority and Deadline Setting
+- Analytics and Progress Tracking
+- Real-time Notifications
 
 ## Tech Stack
 
